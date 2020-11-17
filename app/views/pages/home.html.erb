@@ -1,2 +1,60 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<section class="container-fluid px-0">
+  <div class="row align-items-center pw-0">
+    <div class="col-lg-6">
+      <%# d-none let the text disappear expect when it is d-lg-block  %>
+      <div id=headingGroup class="text-white text-center d-none d-lg-block pl-5">
+        <h1>OLI<span> // </span>HerbalMedicine</h1>
+        <h1>OLI<span> // </span>HerbalMedicine</h1>
+        <h1>OLI<span> // </span>HerbalMedicine</h1>
+        <h1>OLI<span> // </span>HerbalMedicine</h1>
+        <h1>OLI<span> /a/ </span>HerbalMedicine</h1>
+        <h1>OLI<span> // </span>HerbalMedicine</h1>
+        <h1>OLI<span> // </span>HerbalMedicine</h1>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <%= image_tag "ab.jpg", class: "img-fluid" %>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid px-0">
+  <div class="row align-items-center content">
+  <%# order 2 except when we hit the medium becomes order 1 %>
+    <div class="col-md-6 order-2 order-md-1">
+      <%= image_tag "bc.jpg", class: "img-fluid" %>
+    </div>
+
+    <div class="col-md-6 text-center order-1 order-md-2">
+      <div class="row justify-content-center">
+        <div class="col-10 col-lg-8 first mb-5 mb-md-0">
+          <h2>HERBAL MEDICINE</h2>
+          <%= image_tag "e.png", class: "icon d-none d-lg-inline" %>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Commodi officia ipsam animi quas ad corrupti laboriosam perspiciatis, 
+          quam exercitationem. Vel explicabo debitis iure neque est dolores 
+          eveniet ipsam eaque deserunt?</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row align-items-center content">
+    <div class="col-md-6 text-center">
+      <div class="row justify-content-center">
+        <div class="col-10 col-lg-8 first mb-5 mb-md-0 ">
+          <h2>ABOUT US</h2>
+          <%= image_tag "e.png", class: "icon d-none d-lg-inline" %>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Commodi officia ipsam animi quas ad corrupti laboriosam perspiciatis, 
+          quam exercitationem. Vel explicabo debitis iure neque est dolores 
+          eveniet ipsam eaque deserunt?</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <%= image_tag "bc.jpg", class: "img-fluid" %>
+    </div>
+  </div>
+</section>

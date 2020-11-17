@@ -1,12 +1,28 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+body {
+  background-color: white;
+  font-family: "Nunito", sans-serif;
+} 
+
+#mainNavbar .navbar-brand {
+  color: #141A10;
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+#mainNavbar .nav-link {
+  color: #5f7a30e3;
+}
+
+#mainNavbar .nav-link:hover {
+   color: #141A10;
+}
+
+.navbar.scrolled {
+  background: #eeeeee;
+  transition: background 500ms;
 }
